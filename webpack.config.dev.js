@@ -10,7 +10,7 @@ export  default{
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'src'),
-    publicpath:'/',
+    publicPath:'/',
     filename: 'bundle.js'
   },
   plugins: [],
